@@ -61,44 +61,34 @@ int main() {
 
     printf(" Digite os dados da segunda carta: \n ---------------------------------\n");
 
-    printf("  Cidade da primeira carta: %s", cidade1);
     printf(" Estado (A - Rio de Janeiro, B - São Paulo, C - Minas Gerais, D - Espírito Santo, E - Paraná, F - Santa Catarina, G - Rio Grande do Sul, H - Bahia): ");
     scanf(" %c", &estado2);
     printf("  Você digitou: %c\n", estado2);
-    printf("  Na primeira carta: %c\n", estado1);
 
-    printf("  Cidade da primeira carta: %s", cidade1);
     printf(" Código da Carta (01, 02, 03 ou 04): ");
     scanf(" %d", &codcarta2);
     printf("  Você digitou: %.2d\n", codcarta2);
-    printf("  Na primeira carta: %.2d\n", codcarta1);
 
     getchar();
-    printf("  Cidade da primeira carta: %s", cidade1);
     printf(" Nome da Cidade: ");
     fgets(cidade2, sizeof(cidade2), stdin);
     printf("  Você digitou: %s", cidade2);
-    printf("  Na primeira carta: %s", cidade1);
 
     printf(" População: ");
     scanf(" %d", &pop2);
     printf("Você digitou: %d\n", pop2);
-    printf("  Na primeira carta: %d\n", pop1);
 
     printf(" Área (km2): ");
     scanf(" %f", &area2);
     printf("Você digitou: %.2f\n", area2);
-    printf("  Na primeira carta: %.2f\n", area1);
 
     printf(" Pib: ");
     scanf(" %f", &pib2);
     printf("Você digitou: %.2f\n", pib2);
-    printf("  Na primeira carta: %.2f\n", pib1);
 
     printf(" Número de Pontos Turísticos: ");
     scanf(" %d", &numpontur2);
     printf("Você digitou: %d\n", numpontur2);
-    printf("  Na primeira carta: %d\n", numpontur1);
 
     printf("\n\n");
     
